@@ -103,7 +103,7 @@
   font-size: 1rem;
   color: #000000;
   text-decoration: none;
-  margin-top: -30px;
+  margin-top: -20px;
  }
 
  .popular-books{
@@ -114,11 +114,29 @@
 }
 
 .popular-books img{
+ 
   width: 80%;
   max-height: 320px;
   padding: 2rem;
   justify-content: space-around;
-  filter: saturate(0.8)
+  filter: saturate(0.8);
 }
- 
- 
+
+#book1:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#book2:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#book3:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.hide{
+  display:none; 
+}
